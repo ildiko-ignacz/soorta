@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "inlineSources": true,
+    "sourceMap": true,
+    "outDir": "build/js",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*"]
+    },
+    "lib": [
+      "ES5",
+      "ES2015",
+      "DOM",
+      "ScriptHost"]
+  },
+  "include": [
+    "app/**/*"
+  ],
+  "files": [
+    "./typings/index.d.ts",
+    "./node_modules/electron/electron.d.ts"
+  ]
+}
