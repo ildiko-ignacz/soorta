@@ -2,11 +2,52 @@
 @import "color-variables";
 
 
+
 #authentication-banner-container {
   width: 40%;
   height: 100vh;
-  background-color: navy;
-  float: left;
+  background-color: $primary-color;
+  background-image: url("../img/authentication-background-img.png");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+
+#authentication-banner-inner-container{
+
+  max-width: 380px;
+  //background-color: grey;
+  height: auto;
+  margin: 75px auto 0 auto;
+
+  .banner-logo {
+    width: 115px;
+    height: 50px;
+    //background-color: #8dacff;
+    text-align: center;
+    margin: auto;
+    line-height: 50px;
+    color: #ffffff;
+  }
+
+  .banner-welcome-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .banner-welcome-description {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 25px;
+    
+  }
+
+}
 
 
 
